@@ -1,15 +1,3 @@
 function solution(price) {
-    if(price >= 100000 && price < 300000){
-        return Math.floor(price * 0.95);
-    }
-    
-    if(price >= 300000 && price < 500000){
-        return Math.floor(price * 0.9);
-    }
-    
-    if(price >= 500000){
-        return Math.floor(price * 0.8);
-    }
-    
-    return price;
+    return price < 100000 ? price : price < 300000 ? ~~(0.95 * price) : price < 500000 ? ~~(0.9 * price) : ~~(0.8 * price) 
 }
