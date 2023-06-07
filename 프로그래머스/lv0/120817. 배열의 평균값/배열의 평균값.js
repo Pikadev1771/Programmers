@@ -1,8 +1,5 @@
 function solution(numbers) {
-    let result = numbers.reduce(
-        function add(sum, cur) {
-        return sum + cur
-    }, 0)
-    
-    return result / (numbers.length);
+    const sum = numbers.reduce((acc, cur) => acc + cur)
+     
+    return sum / numbers.length
 }
