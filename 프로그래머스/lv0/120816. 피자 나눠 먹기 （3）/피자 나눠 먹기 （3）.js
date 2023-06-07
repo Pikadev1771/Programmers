@@ -1,5 +1,9 @@
 function solution(slice, n) {
+   let pizza = 1;
     
-    return Math.ceil(n / slice)
-;
+    while (n > slice * pizza) {
+        pizza++
+    }
+    
+    return pizza;
 }
