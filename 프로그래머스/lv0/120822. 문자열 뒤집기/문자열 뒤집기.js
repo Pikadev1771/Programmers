@@ -1,4 +1,11 @@
 function solution(my_string) {
-  
-    return  [...my_string].reverse().join('');
+    const reverse = []
+    
+    let arr = my_string.split('')
+    
+    while(arr.length) {
+        reverse.push(arr.pop())
+    }
+    
+    return reverse.join('')
 }
