@@ -4,5 +4,5 @@ function solution(dot) {
 
     const [num1, num2] = dot
     
-    return num1 * num2 > 0 ? num1 > 0 ? 1 : 3 : num2 > 0 ? 2 : 4
+    return num1 * num2 > 0 ? (num1 > 0 ? 1 : 3) : (num2 > 0 ? 2 : 4)
 }
