@@ -1,6 +1,6 @@
 # [level 0] 점의 위치 구하기 - 120841 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120841) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120841?language=javascript) 
 
 ### 성능 요약
 
